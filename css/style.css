@@ -322,13 +322,13 @@ Main Components
 }
 .cd-horizontal-timeline .events-content em {
   display: block;
-/*   font-style: italic; */
+  font-style: italic;
   margin: 10px auto;
 }
-.cd-horizontal-timeline .events-content em::before {
+/* .cd-horizontal-timeline .events-content em::before {
   content: '- ';
-}
-.cd-horizontal-timeline .events-content p {
+} */
+.cd-horizontal-timeline .events-content p, .cd-horizontal-timeline .events-content li {
   font-size: 1.4rem;
   color: #959595;
 }
