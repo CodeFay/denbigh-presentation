@@ -140,7 +140,7 @@ jQuery(document).ready(function($){
 			timeSpanNorm = timeSpan/timelineComponents['eventsMinLapse'],
 			timeSpanNorm = Math.round(timeSpanNorm) + 4,
 			totalWidth = timeSpanNorm*width;
-		timelineComponents['eventsWrapper'].css({ width: `${totalWidth}px`, left: `calc(50% - ${totalWidth/2}px)` });
+		timelineComponents['eventsWrapper'].css({ width: `${totalWidth}px`, left: `calc(50% - ${totalWidth/2}px - 65px)` });
 		updateFilling(timelineComponents['timelineEvents'].eq(0), timelineComponents['fillingLine'], totalWidth);
 	
 		return totalWidth;
