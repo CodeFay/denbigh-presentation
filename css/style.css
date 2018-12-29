@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -40,9 +40,9 @@ a {
   text-align: center;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 .cd-horizontal-timeline {
@@ -137,6 +137,7 @@ Main Components
   font-size: 1.3rem;
   padding-bottom: 15px;
   color: #383838;
+  /* color of timeline */
   /* fix bug on Safari - text flickering while timeline translates */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -263,6 +264,7 @@ Main Components
   -moz-transition: height 0.4s;
   transition: height 0.4s;
 }
+
 .cd-horizontal-timeline .events-content li {
   position: absolute;
   z-index: 1;
